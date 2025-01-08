@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - LikeGiver
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - https://github.com/datawhalechina/self-llm
+  - https://github.com/LikeGiver/course-transcription
+  - https://github.com/LikeGiver/VideoRAG
+  - https://github.com/LikeGiver/news_bot
