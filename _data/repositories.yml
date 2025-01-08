@@ -4,7 +4,7 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - https://github.com/datawhalechina/self-llm
-  - https://github.com/LikeGiver/course-transcription
-  - https://github.com/LikeGiver/VideoRAG
-  - https://github.com/LikeGiver/news_bot
+  - datawhalechina/self-llm
+  - LikeGiver/course-transcription
+  - LikeGiver/VideoRAG
+  - LikeGiver/news_bot
