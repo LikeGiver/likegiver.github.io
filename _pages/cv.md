@@ -3,7 +3,7 @@ layout: cv
 permalink: /cv/
 title: cv
 nav: true
-nav_order: 5
+nav_order: 2
 cv_pdf: tyk_resume_work_01_06_MLE.pdf
 description: 
 toc:
