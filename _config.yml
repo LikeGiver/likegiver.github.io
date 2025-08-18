@@ -6,9 +6,9 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Yike
 middle_name: (Eric)
 last_name: Tan
-email: yiket@andrew.cmu.edu
+email: yiketn@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A website of LikeGiver. Check it out!
+  Graduate student at Carnegie Mellon University specializing in AI Engineering and full-stack development. Check out my projects and research!
 # footer_text: >
 #   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
