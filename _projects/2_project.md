@@ -1,81 +1,47 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Silent Supporter - AI Therapy Platform
+description: Scalable multimodal therapy platform with advanced AI capabilities
 img: assets/img/3.jpg
 importance: 2
 category: work
+github: https://github.com/LikeGiver
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Silent Supporter is an innovative AI-powered therapy platform developed in collaboration with Tsinghua AIR, featuring advanced multimodal capabilities including real-time emotion visualization and personalized music therapy.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Key Achievements
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- **Performance Optimization**: Reduced real-time generation latency by 80% through WebSocket implementation
+- **AI Model Enhancement**: Achieved 3x inference speed improvement via ONNX Runtime graph optimization
+- **Custom AI Training**: Fine-tuned InspireMusic 1.5B model for targeted music style transfer
+- **Real-time Visualization**: Developed WebGL engine for dynamic conversational emotion display
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Technical Architecture
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Backend Infrastructure
+- **Node.js**: High-performance JavaScript runtime for scalable backend services
+- **PostgreSQL**: Robust relational database for primary data storage
+- **Redis**: In-memory caching for session management and performance optimization
+- **RabbitMQ**: Event-driven architecture for asynchronous multimodal generation
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### AI & Machine Learning
+- **Custom Model Fine-tuning**: InspireMusic 1.5B model adapted for therapeutic music generation
+- **ONNX Runtime**: Graph optimization for 3x faster inference speeds
+- **Multimodal Processing**: Real-time audio, text, and visual data integration
 
-{% raw %}
+### Frontend & Visualization
+- **WebGL Engine**: Custom-built real-time emotion visualization system
+- **Real-time Updates**: WebSocket-powered live emotional state tracking
+- **Responsive Design**: Cross-platform compatibility for therapy sessions
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Innovation Highlights
 
-{% endraw %}
+This project represents a significant advancement in digital therapy platforms, combining cutting-edge AI research with practical therapeutic applications. The integration of real-time emotion visualization with personalized music therapy creates a uniquely immersive therapeutic experience.
+
+## Research Collaboration
+
+Developed in partnership with Tsinghua AIR, this project contributes to ongoing research in AI-assisted mental health interventions and demonstrates the practical application of advanced machine learning techniques in healthcare technology.

@@ -8,12 +8,12 @@ middle_name: (Eric)
 last_name: Tan
 email: yiketn@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Graduate student at Carnegie Mellon University specializing in AI Engineering and full-stack development. Check out my projects and research!
+  AI Engineering graduate student at Carnegie Mellon University with expertise in full-stack development, GPU optimization, and scalable AI systems. Core contributor to Self-LLM (23.2K+ stars) and featured in Google I/O China 2024. Specializing in LLM systems, multimodal applications, and high-performance computing.
 # footer_text: >
 #   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Natural Language Processing, Multimodal, Artificial Intelligence Engineering, # add your own keywords or leave empty
+keywords: Artificial Intelligence Engineering, Large Language Models, Full-stack Development, CUDA Programming, Multimodal AI, Machine Learning, Software Engineering, Open Source, GPU Optimization, Real-time Systems # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: web_icon.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -96,7 +96,7 @@ pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid: # your Google Scholar ID
+scholar_userid: SX6jLPMAAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -312,8 +312,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Tan]
+  first_name: [Yike, Eric, Y.]
 
   style: apa
   locale: en

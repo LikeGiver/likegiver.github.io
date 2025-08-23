@@ -2,96 +2,106 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Yike (Eric) Tan
+    - name: Email
+      value: yiketn@gmail.com
+    - name: Phone
+      value: +1-412-583-0350
+    - name: Location
+      value: Pittsburgh, PA
     - name: Languages
-      value: English, German
+      value: English (Fluent), Chinese (Native)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Science in Artificial Intelligence Engineering - Information Security
+      institution: Carnegie Mellon University, Pittsburgh, PA
+      year: 2024 - 2025 (Expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "GPA: 3.78/4.00"
+        - "Coursework: LLM Systems, LLM Methods and Applications, AI Systems and Tool Chains, Computer Systems"
+    - title: Bachelor of Engineering in Data Science and Big Data Technology
+      institution: University of International Business and Economics, Beijing, China
+      year: 2020 - 2024
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 3.70/4.00"
+        - "Coursework: Operation Systems, Data Structure and Algorithm, Natural Language Processing, Big Data Analysis"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Engineer Intern
+      institution: Instance Creator LLC, Sunnyvale, CA (Remote)
+      year: May 2025 - July 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Spearheaded a vector-based semantic matching system using Qdrant, boosting matching accuracy to over 80%
+        - Developed a multi-agent automation platform with AutoGen and gpt-4o, reducing manual effort by 85%
+        - Designed scalable microservices backend using async FastAPI supporting 1,000+ concurrent users
+        - Optimized performance with Redis caching, reducing external API latency by 80%
+    - title: Software Engineer Intern
+      institution: Epoching AI, Beijing, China
+      year: July 2024 - Aug 2024
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Achieved 10x inference speedup and 30% accuracy boost for watermark removal service using NVIDIA TensorRT
+        - Developed data generation and augmentation pipeline for model robustness
+        - Containerized service with Docker, deployed on Cloud ECS with Prometheus monitoring
+        - Ensured high availability for 500+ concurrent requests
+    - title: Software Engineer Intern
+      institution: Ytell Network Technology Co., Ltd., Beijing, China
+      year: Sep 2023 - Mar 2024
       description:
+        - Developed high-performance multimodal RAG chatbot with FastAPI, increasing throughput by 5x
+        - Implemented Flash Attention 2 and hybrid search strategy, cutting retrieval errors by 40%
+        - Automated processing of 1,000+ daily orders with Apache Airflow and MongoDB
+        - Eliminated 5+ hours of weekly manual work per store manager
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Key Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/datawhalechina/self-llm">Self-LLM Open Source Guide (23.2K Stars)</a>
+      year: 2024
+      description: Co-authored leading LLM deployment guide featured in Google I/O Connect China 2024
+    - title: ImaginAItion - AI Literacy Game
+      year: 2025
+      description: Real-time multiplayer game with React/TypeScript frontend and FastAPI backend for CMU HCI
+    - title: Silent Supporter - AI Therapy Platform
+      year: 2025
+      description: Scalable therapy platform with Node.js backend and advanced multimodal AI capabilities
+    - title: Optimized Transformer Inference
+      year: 2025
+      description: Custom CUDA kernels achieving 73% throughput improvement and 90% memory reduction
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, C, CUDA, C++, Java, JavaScript, SQL, R
+    - title: AI/ML Frameworks
       items:
-        - Description 1.
-        - Description 2.
+        - PyTorch, TensorFlow, Triton, JAX, Transformers, vLLM, LangChain
+    - title: Web Development
+      items:
+        - React, Node.js, FastAPI, Django, Flask, TypeScript, WebSockets
+    - title: Databases & Caching
+      items:
+        - PostgreSQL, MongoDB, Redis, Neo4j, Vector Databases (Qdrant)
+    - title: DevOps & Cloud
+      items:
+        - Docker, Kubernetes, AWS, GCP, Prometheus, Grafana, Jenkins
 
-- title: Other Interests
+- title: Research Collaborations
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Currently collaborating with <a href="https://scholar.google.com/citations?user=AktmI14AAAAJ&hl=zh-CN">Jiangtao Gong</a> from Tsinghua AIR
+    - Working with <a href="https://www.cs.cmu.edu/~sherryw/">Sherry Tongshuang Wu</a> from CMU HCI
+    - Focus areas include AI systems, human-computer interaction, and multimodal applications
+
+- title: Achievements
+  type: list
+  contents:
+    - Core contributor to Self-LLM project with 23.2K+ GitHub stars
+    - Featured project in Google I/O Connect China 2024 keynote
+    - Multiple high-impact internships with quantifiable performance improvements
+    - Advanced GPU optimization expertise with custom CUDA kernel development

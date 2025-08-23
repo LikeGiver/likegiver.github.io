@@ -1,81 +1,41 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: ImaginAItion - AI Literacy Game
+description: Real-time multiplayer AI literacy game built for CMU HCI
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: true
+github: https://github.com/LikeGiver
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+ImaginAItion is a cutting-edge real-time multiplayer game designed to enhance AI literacy through interactive gameplay. Built as part of a collaboration with Carnegie Mellon University's Human-Computer Interaction Institute, this project demonstrates advanced full-stack development with modern web technologies.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Key Achievements
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- **Real-time Performance**: Achieved <150ms latency for 50+ concurrent players using Socket.IO over WebSockets
+- **Scalable Architecture**: Deployed containerized services to Amazon ECS with Docker Compose orchestration
+- **AI Integration**: Seamlessly integrated GPT-4 Vision API for dynamic, real-time image generation
+- **Modern Tech Stack**: React with TypeScript frontend and FastAPI backend
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Technical Implementation
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Frontend Architecture
+- **React + TypeScript**: Type-safe, component-based architecture
+- **Socket.IO Client**: Real-time bidirectional communication
+- **Responsive Design**: Mobile-first approach with modern CSS
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Backend Systems
+- **FastAPI**: High-performance async Python web framework
+- **WebSocket Management**: Custom game state synchronization
+- **Stateful Game Loop**: Turn-based progression with AI model integration
 
-{% raw %}
+### Deployment & DevOps
+- **Docker Compose**: Multi-service containerization for local development
+- **Amazon ECS**: Production-ready container orchestration
+- **CI/CD Pipeline**: Automated testing and deployment workflows
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Impact & Results
 
-{% endraw %}
+This project showcases the intersection of educational technology and advanced web development, delivering a platform that makes AI concepts accessible through engaging, interactive gameplay. The system successfully handles high concurrent loads while maintaining sub-150ms response times, demonstrating expertise in both frontend user experience and backend scalability.

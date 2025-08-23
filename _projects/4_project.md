@@ -1,80 +1,65 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Self-LLM - Open Source LLM Guide
+description: Leading open-source LLM deployment guide with 23.2K+ GitHub stars
+img: assets/img/6.jpg
+importance: 4
+category: open-source
+github: https://github.com/datawhalechina/self-llm
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Self-LLM is a comprehensive open-source guide that simplifies Large Language Model deployment and fine-tuning. As a core contributor, I helped create educational content that has become an industry standard, culminating in its feature at Google I/O Connect China 2024.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Major Achievements
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- **23.2K+ GitHub Stars**: One of the most popular LLM deployment guides in the Chinese tech community
+- **Google I/O Feature**: Selected for keynote presentation at Google I/O Connect China 2024
+- **Industry Recognition**: Widely adopted by developers and companies for LLM implementations
+- **Educational Impact**: Simplified the learning curve for thousands of developers entering the LLM field
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Technical Contributions
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Core Documentation
+- **GLM4 Deployment**: Comprehensive tutorials for GLM4 integration with vLLM
+- **LangChain Integration**: Step-by-step guides for building LLM applications
+- **LoRA Fine-tuning**: Practical examples of parameter-efficient fine-tuning
+- **Production Deployment**: Best practices for scalable LLM deployment
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Framework Coverage
+- **vLLM Integration**: High-performance inference server setup and optimization
+- **Transformers Library**: Detailed usage patterns and optimization techniques
+- **Model Quantization**: INT8 and FP16 optimization strategies
+- **Distributed Inference**: Multi-GPU deployment configurations
 
-{% raw %}
+### Developer Experience
+- **Code Examples**: Production-ready code snippets and templates
+- **Troubleshooting Guides**: Common issues and solutions documentation
+- **Performance Benchmarks**: Comparative analysis of different deployment strategies
+- **Community Support**: Active maintenance and issue resolution
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Open Source Impact
 
-{% endraw %}
+### Community Growth
+- **Developer Adoption**: Enabled thousands of developers to implement LLM solutions
+- **Knowledge Sharing**: Bridged the gap between research and practical implementation
+- **Ecosystem Growth**: Contributed to the broader Chinese AI development ecosystem
+- **Industry Standards**: Influenced best practices in LLM deployment
+
+### Technical Excellence
+- **Documentation Quality**: Maintained high standards for technical accuracy
+- **Code Quality**: Ensured all examples are production-ready and well-tested
+- **Version Control**: Systematic updates to support latest model releases
+- **Cross-platform Support**: Compatibility across different deployment environments
+
+## Google I/O Recognition
+
+The project's selection for Google I/O Connect China 2024 represents recognition of its significant contribution to the AI development community. This platform showcased the project to industry leaders and demonstrated its real-world impact on LLM adoption in enterprise environments.
+
+## Technical Skills Demonstrated
+
+- **Technical Writing**: Clear, comprehensive documentation for complex AI concepts
+- **Open Source Leadership**: Community management and collaborative development
+- **LLM Deployment**: Practical experience with production-scale language model deployment
+- **Developer Education**: Creating accessible learning resources for advanced technical topics
